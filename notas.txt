@@ -1,0 +1,11 @@
+Para agregar una nueva app en django
+
+Crea la migracion de base de datos
+$python manage.py makemigrations polls (1.8)
+$python manage.py sql polls (1.5)
+
+Aplica los cambios hechos
+
+$python manage.py migrate (1.8)
+$python manage.py syncdb (1.5)
+

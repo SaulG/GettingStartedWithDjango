@@ -1,0 +1,4 @@
+Para agregar una nueva app en django
+
+$python manage.py makemigrations polls (1.8)
+$python manage.py sql polls (1.5)
